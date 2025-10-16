@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', monospace;
+    background: linear-gradient(180deg, #3c873a, #2d572c);
+    background-attachment: fixed;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+
+    background-image: 
+        url('steve.png'),
+        linear-gradient(180deg, #3c873a, #2d572c);
+    background-repeat: no-repeat;
+    background-size: 300px auto, cover;
+    background-position: bottom right;
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(90deg, #1a472a, #2a623d);
+    padding: 20px;
+    border-bottom: 5px solid #4CAF50;
+    text-shadow: 2px 2px 4px #000;
+    box-shadow: 0 5px 0 #000;
+}
+
+header h1 {
+    font-size: 18px;
+    margin: 0;
+}
+
+header p {
+    font-size: 10px;
+    margin-top: 5px;
+    color: #c8e6c9;
+}
+
+nav {
+    background: #1b5e20;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 5px 0 #000;
+}
+
+nav a {
+    color: #fff;
+    background: #388e3c;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 3px solid #2e7d32;
+    border-radius: 4px;
+    margin: 5px;
+    display: inline-block;
+    box-shadow: 3px 3px 0 #000;
+    transition: 0.2s;
+    font-size: 10px;
+}
+
+nav a:hover,
+nav a.active {
+    background: #4caf50;
+    transform: translateY(-2px);
+}
+
+.container {
+    background: rgba(200, 230, 201, 0.95);
+    color: #000;
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 25px;
+    border: 5px solid #2e7d32;
+    border-radius: 10px;
+    box-shadow: 8px 8px 0 #000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input, select {
+    padding: 8px;
+    border: 3px solid #2e7d32;
+    border-radius: 6px;
+    font-family: monospace;
+}
+
+button {
+    background: #4caf50;
+    border: 3px solid #2e7d32;
+    color: white;
+    font-family: 'Press Start 2P', monospace;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0 #000;
+}
+
+button:hover {
+    background: #66bb6a;
+}
+
+.result {
+    background: #a5d6a7;
+    border: 3px solid #2e7d32;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 0 #000;
+}
